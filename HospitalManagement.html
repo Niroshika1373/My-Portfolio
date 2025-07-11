@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-image: url("image.png");
+            background-size: cover;
+        }
+    
+        .project-detail {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 2rem;
+        }
+    
+        .tech-stack {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            margin-left: 700px;
+        }
+    
+        .tech-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            justify-content: center;
+    
+        }
+    
+        .tech-icon span {
+            display: block;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+    
+        }
+    
+        .project-img {
+            display: flex;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin: 50px auto;
+            height: 500px;
+            width: 700px;
+        }
+    
+        h1 {
+            text-align: center;
+            font-family: 'Product Sans', sans-serif;
+            color: #333;
+            margin-top: 200px;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+    
+        h2 {
+            text-align: center;
+            font-family: 'Product Sans', sans-serif;
+            color: #555;
+            margin-top: 20px;
+            font-size: 1.8em;
+        }
+    
+        p {
+    
+            font-family: 'Product Sans', sans-serif;
+            color: #020202;
+            margin: 20px auto;
+            font-size: 1.2em;
+            max-width: 800px;
+            text-align: justify;
+        }
+    
+        li {
+            font-family: 'Product Sans', sans-serif;
+            color: #444;
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+    
+        ul {
+            list-style: disc;
+            /* optional: removes default bullets */
+            padding: 0;
+            margin: 0 auto;
+            text-align: justify;
+            width: fit-content;
+    
+        }
+    
+        .project-link {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Product Sans', sans-serif;
+    
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img height="150px" src="logo.png" alt="no img"></div>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="project.html">Projects</a>
+                <a href="skill.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <h1>MEDICINAL TRACKING SYSTEM</h1>
+    
+    <div class="project-link">
+        <h2>Project Link</h2>
+        <a href="https://github.com/Niroshika1373/Hospital-Management" target="_blank"
+            style="text-decoration: none; color: blue; font-size: 1.2em;">View Project on GitHub</a>
+        <br>
+    </div>
+    
+    <img src="image 3.png" alt="flip" class="project-img" >
+    <h2>Project Description</h2>
+    <p>To develop a smart medicine supply management system enhancing
+    efficiency in healthcare facilities.To develop a web-based system with a
+    responsive UI usingHTML, CSS, JavaScript, and Bootstrap for seamless
+    interaction.To implement a robust backend using Django framework for
+    handling user requests, managing inventory, and ensuring secure
+    authentication</p>
+    <h2>Features</h2>
+    <ul>
+       <li>Inventory Management</li>
+       <li>Role-Based Access</li>
+       <li>Secure User Authentication</li>
+       <li>Responsive UI/UX</li>
+       <li>Request Handling</li>
+    </ul>
+    <h2>Technologies Used</h2>
+    <div class="tech-stack"> 
+        <div class="tech-icon">
+            <i class="fa-brands fa-js"></i>
+            <span>JavaScript</span>
+         </div>
+        <div class="tech-icon">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+        </div>
+        <div class="tech-icon">
+            <i class="fa-brands fa-css3-alt"></i>
+            <span>CSS</span>
+        </div>
+        <div class="tech-icon">
+            <i class="fa-brands fa-python"></i>
+            <span>Django</span>
+        </div>
+        <div class="tech-icon">
+            <i class="fa-brands fa-bootstrap"></i>
+            <span>Boostrap</span>
+        </div>
+
+        <div class="tech-icon">
+            <i class="fas fa-database"></i>
+            <span>MySQL</span>
+        </div>
+    </div>
+</body>
+</html>
